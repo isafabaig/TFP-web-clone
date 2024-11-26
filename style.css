@@ -1,0 +1,266 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+  position: absolute;
+  background-color: #fff;
+    box-shadow: 3px 3px 5px rgb(91, 42, 42);
+    overflow: hidden;
+}
+#navbarSupportedContent{
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item a:hover{
+  background-color: rgba(0, 0, 255, 0.447);
+    border-radius: 3rem;
+    transition: 0s;
+    transform: text-decoration scale(1.1);
+    color: white;
+}
+.nav-item .nav-link-active {
+  text-decoration: none;
+  background-color: rgba(0, 0, 255, 0.447);
+    border-radius: 3rem;
+    width: 6vw;
+    height: 5vh;
+    padding: 0rem 1rem;
+    text-align: center;
+    color: white;
+}
+#active a{
+  background-color: rgba(0, 0, 255, 0.447);
+  border-radius: 3rem;
+  transition: 0s;
+  transform: text-decoration scale(1.1);
+  color: white;
+
+}
+.nav-item{
+    display: flex;
+    justify-content: center;
+    margin-left: 3rem;
+    color: black;
+}
+.nav-item a{
+    color: black;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+#loginBtn{
+  width: 15vw;
+  height: 8vh;
+  border: 10rem;
+  border-radius: 5rem;
+}
+#loginBtn:hover{
+  background-color: rgba(0, 0, 255, 0.5);
+}
+.aaa{
+  width: 15vw;
+  height: 8vh;
+  text-decoration: none;
+
+}
+.modal-content {
+  background-color: #fefefe;
+  background-image: url(https://tse1.mm.bing.net/th?id=OIP.WAn-rQeniVH-OaiDIrd-gAHaED&pid=Api&P=0&h=220);
+  margin: 20% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+} 
+.ccc {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.ccc:hover,
+.ccc:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+  .about {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  .about-img img {
+    margin-top: 0;
+  float: left;
+    width: 500px;
+    height: auto;
+    margin-left: 10%;
+  }
+  .about-para{
+    background-color: rgba(180, 172, 172, 0.112);
+    width: 600px;
+    height: auto;
+    margin-right: 2%;
+  }
+  .about-para h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    width: fit-content;
+    margin-left: 30px;
+  }
+  
+  .about-para p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.769);
+    float: right;
+    margin-left: 30px;
+  }
+  .bara-div{
+    margin-right: 15%;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .mission-h1{
+    text-align: center;
+    margin-top: 5%;
+  }
+  .mission-p{
+    padding: 0.5rem 1rem;
+    margin-left: 10rem;
+    margin-right: 0;
+  }
+  .mission-p img{
+    margin-right: 120%;
+  }
+  .m-img img{
+    padding: 0.5rem 1rem;
+    margin-right: 40%;
+    width: 20rem;
+    height: 20rem;
+  }
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: rgba(0, 0, 255, 0.623);
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  .service-h1{
+    margin-top: 5%;
+  }
+  .ser-main{
+    margin-top: 5%;
+    background-color: beige;
+    overflow: hidden;
+    
+  }
+  .row1{
+    display: flex;
+    justify-content: space-between;
+  }
+  .row2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+  }
+  .one{
+    background-color: rgba(0, 0, 255, 0.283);
+    width: 22%;
+    height: 18rem;
+    float: left;
+    padding: 0.5rem 1rem;
+    font-weight: bolder;
+    color: black;
+    overflow: hidden;
+  }
+  .one p{
+    margin-top: 10%;
+    padding: 1rem;
+  }
+  .one:hover{
+    transform: scale(1.1);
+  }
+  .two{
+    background-color: rgba(0, 0, 255, 0.283);
+    width: 22%;
+    height: 18rem;
+    float: left;
+    padding: 0.5rem 1rem;
+    font-weight: bolder;
+    color: black;
+    overflow: hidden;
+  }
+  .two p{
+    margin-top: 10%;
+    padding: 1rem;
+  }
+  .two:hover{
+    transform: scale(1.1);
+  }
+  /* styles.css */
+
+#goTopBtn {
+  display: none; 
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#goTopBtn:hover {
+  background-color: rgba(0, 0, 255, 0.543);
+}
